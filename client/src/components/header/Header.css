@@ -1,0 +1,31 @@
+.header {
+    padding-top: 80px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-wrapper {
+    margin: auto;
+    width: 90%;
+    padding: 10px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-title {
+    color: dimgray;
+    font-size: 1rem;
+    font-family: 500;
+    width: 10%;
+    padding: 10px 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header-wrapper .selected {
+    border-bottom: 2px solid gainsboro;
+}
