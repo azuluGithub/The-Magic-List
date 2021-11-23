@@ -9,6 +9,43 @@
   width: 100%;
 }
 
+.app-section {
+  width: 90%;
+  margin: 30px auto;
+  min-height: 50vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-section-wrappers {
+  width: 40%;
+  padding: 0 20px;
+}
+
+.app-section-title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: dimgray;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.app-current-container,
+.app-complete-container {
+  width: 60%;
+  min-height: 40vh;
+  margin: auto;
+}
+
+.app-current-container {
+  background-color: turquoise;
+}
+
+.app-complete-container {
+  background-color: tomato;
+}
+
 /**
  * #APP SCROLLBAR
  */
@@ -27,8 +64,8 @@
  * #SMALL IMAGE
  */
 .small-img-box {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: #fff;
 }
@@ -46,3 +83,4 @@
   border-radius: 0.5rem;
   border: 2px solid rgba(0,0,0,0.1);
 }
+

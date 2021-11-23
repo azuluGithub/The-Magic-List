@@ -11,6 +11,20 @@ const App = () => {
     <div className="app">
       <NavBar />
       <Header />
+      <div className="app-section">
+        <div className="app-section-wrappers">
+          <h2 className="app-section-title">Current</h2>
+          <div className='app-current-container'>
+
+          </div>
+        </div>
+        <div className="app-section-wrappers">
+          <h2 className="app-section-title">Complete</h2>
+          <div className='app-complete-container'>
+
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
