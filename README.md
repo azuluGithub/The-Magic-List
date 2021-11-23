@@ -101,6 +101,6 @@
 ```
 
 ```diff
-# npm start
+npm start
 ```
  
