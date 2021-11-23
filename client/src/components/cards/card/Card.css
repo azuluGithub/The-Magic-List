@@ -1,0 +1,9 @@
+.card {
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 8px rgb(128, 127, 127);
+    overflow: hidden;
+}

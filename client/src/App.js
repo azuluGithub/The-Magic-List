@@ -1,0 +1,15 @@
+//local imports
+import './App.css';
+
+/**
+ * #app
+ */
+const App = () => {
+  return (
+    <div className="app">
+      app
+    </div>
+  )
+}
+
+export default App;

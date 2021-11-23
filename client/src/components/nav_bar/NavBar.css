@@ -1,0 +1,17 @@
+.nav-bar {
+    height: 60px;
+    position: fixed;
+    z-index: 5;
+    width: 100vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0,0, 0, 0.4);
+}
+
+.nav-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
