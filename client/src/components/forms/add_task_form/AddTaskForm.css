@@ -1,0 +1,54 @@
+.task-form-form {
+    width: 90%;
+    margin: auto;
+}
+
+.task-form-header {
+    font-family: 'Segoe UI';
+    color: #333;
+    margin: 10px 0;
+}
+
+.task-form-label-input-box {
+    width: 100%;
+    margin-bottom: 6px;
+    font-family: 'Segoe UI';
+}
+
+.task-form-label {
+    color: #444;
+    font-size: 13px;
+}
+
+.task-form-input {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #cccc;
+    width: 100%;
+    padding: 6px 0;
+    outline: none;
+}
+
+.task-form-input:focus {
+    border-bottom: 2px solid #444;
+}
+
+.task-form-button {
+    padding: 5px 30px;
+    background-color: #444;
+    outline: none;
+    border: none;
+    color: #fff;
+    margin: 15px 0;
+    font-size: 12px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.task-form-button:hover {
+    cursor: pointer;
+    color: #aaa;
+    background-color: #eee;
+}
