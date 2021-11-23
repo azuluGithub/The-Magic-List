@@ -97,7 +97,7 @@
 <h3> Starting Project: </h3>
 
 ```diff
-# AT THE ROOT OF BOTH CLIENT RUN THIS COMMAND'
+# AT THE ROOT OF CLIENT RUN THIS COMMAND'
 ```
 
 ```diff
