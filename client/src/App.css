@@ -23,6 +23,23 @@
   box-shadow: 0 2px 4px rgba(0,0,0,0.1) inset;
 }
 
+/**
+ * #SMALL IMAGE
+ */
+.small-img-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.small-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 ::-webkit-scrollbar-thumb {
   background-color: #000;
   background: linear-gradient(to bottom right, #000,#fff);

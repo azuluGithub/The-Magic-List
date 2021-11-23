@@ -1,17 +1,28 @@
-.nav-bar {
-    height: 60px;
+.nav {
     position: fixed;
     z-index: 5;
     width: 100vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgba(0,0, 0, 0.4);
 }
 
-.nav-bar-container {
+.nav-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
-    height: 100%;
     margin: auto;
+    width: 90%;
+    padding: 10px 0;
+}
+
+.nav-logo {
+    font-family: cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.nav-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
