@@ -1,7 +1,7 @@
 <h1> :page_facing_up: The Magic List :x: :heavy_check_mark:</h1>
 
 ```diff
-
+    This is a drag and drop to-do list
 ```
 
 <hr />
