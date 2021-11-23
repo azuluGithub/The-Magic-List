@@ -31,21 +31,11 @@
   margin: 10px 0;
 }
 
-.app-current-container,
-.app-complete-container {
-  width: 60%;
+.app-tasks-container {
+  width: 80%;
   min-height: 40vh;
   margin: auto;
 }
-
-.app-current-container {
-  background-color: turquoise;
-}
-
-.app-complete-container {
-  background-color: tomato;
-}
-
 /**
  * #APP SCROLLBAR
  */
