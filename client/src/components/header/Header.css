@@ -6,11 +6,11 @@
 
 .header-wrapper {
     margin: auto;
-    width: 90%;
+    width: 80%;
     padding: 10px 0;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0,0,0, 0.2);
+    box-shadow: 0 5px 5px #ddd;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -27,5 +27,5 @@
 }
 
 .header-wrapper .selected {
-    border-bottom: 2px solid gainsboro;
+    border-bottom: 2px solid #ddd;
 }
